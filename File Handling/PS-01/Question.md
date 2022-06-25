@@ -1,0 +1,1 @@
+#### Write a program to find the number of spaces, words, characters, and lines in a file.
