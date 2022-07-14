@@ -1,5 +1,3 @@
-import java.time.chrono.MinguoChronology;
-
 import java.io.*;
 class AutomaticClosingFile{
     public static void main(String[] args) {
