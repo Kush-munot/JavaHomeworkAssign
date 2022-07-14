@@ -4,7 +4,11 @@ public class Main {
 
         Generics<String> i2 = new Generics<String>("Kush here!!");
 
+        UpperBoundGen<Double> u1 = new UpperBoundGen<Double>(12.2, 15.3);
+
         i1.print();
         i2.print();
+
+        u1.sum();
     }
 }
