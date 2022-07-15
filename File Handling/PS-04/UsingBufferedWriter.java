@@ -3,9 +3,7 @@ import java.io.*;
 public class UsingBufferedWriter {
     public static void main(String[] args) {
         try{
-            File f = new File("file.txt");
-            FileWriter t = new FileWriter(f);
-            BufferedWriter o = new BufferedWriter(t);
+            BufferedWriter o = new BufferedWriter(new FileWriter("file.txt"));
             String s = "Hi There : )";
             o.write(s);
 

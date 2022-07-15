@@ -2,9 +2,7 @@ import java.io.*;
 class usingBufferedReader{
     public static void main(String[] args) {
         try{
-            File f = new File("file.txt");
-            FileReader t = new FileReader(f);
-            BufferedReader o = new BufferedReader(t);
+            BufferedReader o = new BufferedReader(new FileReader("file.txt"));
             String s = o.readLine();
 
             System.out.println(s);       
