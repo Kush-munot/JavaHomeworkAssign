@@ -21,6 +21,8 @@ class Main {
             words = space + 1;
             System.out.println(
                     "Characters = " + chars + " Words = " + words + " Lines = " + lines + " Spaces = " + space);
+            String str = "Characters = " + chars + " Words = " + words + " Lines = " + lines + " Spaces = " + space;
+            w.write(str);
         } catch (IOException e) {
             System.out.println(e);
         }
