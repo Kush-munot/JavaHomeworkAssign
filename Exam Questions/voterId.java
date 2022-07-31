@@ -8,12 +8,14 @@ public class voterId {
 		String name, dobs, city;
 		int day,month,year;
 		Scanner sc = new Scanner(System.in);
+
 		System.out.println("Enter name: ");
 		name = sc.nextLine();
 		System.out.println("Enter city: ");
 		city = sc.nextLine();
 		System.out.println("Enter date of birth's date: dd/mm/yy ");
 		dobs = sc.nextLine();
+		
 		String arr[] = dobs.split("/");
 		day = Integer.parseInt(arr[0]);
 		month = Integer.parseInt(arr[1]);
