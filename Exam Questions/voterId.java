@@ -1,7 +1,5 @@
 import java.util.*;
-
 import java.time.*;
-import java.time.format.DateTimeFormatter;
 
 public class voterId {
 	public static void main(String[] args) {
@@ -15,7 +13,7 @@ public class voterId {
 		city = sc.nextLine();
 		System.out.println("Enter date of birth's date: dd/mm/yy ");
 		dobs = sc.nextLine();
-		
+
 		String arr[] = dobs.split("/");
 		day = Integer.parseInt(arr[0]);
 		month = Integer.parseInt(arr[1]);
