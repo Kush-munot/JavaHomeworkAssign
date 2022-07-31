@@ -20,7 +20,7 @@ public class voterId {
 		year = Integer.parseInt(arr[2]);
 
 		LocalDate dob =  LocalDate.of(year,month,day);
-		LocalDate curD = java.time.LocalDate.now();
+		LocalDate curD = LocalDate.now();
 
 		Period period = Period.between(dob, curD);
 		int diff = period.getYears();
